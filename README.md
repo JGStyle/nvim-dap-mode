@@ -4,10 +4,11 @@ Enhances debugging in NeoVim using the Debug Adapter Protocol (DAP). Provides dy
 ## Keybindings
 While debugging:
 
-o: Step over
-i: Step into
-b: Toggle breakpoint
-H: Hover to view current value
+ - o: Step over
+ - i: Step into
+ - b: Toggle breakpoint
+ - H: Hover to view current value
+
 Keybindings revert to their default actions when not debugging.
 
 ## Installation
