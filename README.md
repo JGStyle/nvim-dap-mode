@@ -1,14 +1,19 @@
-# About
+# Neovim DAP Configuration
+Enhances debugging in NeoVim using the Debug Adapter Protocol (DAP). Provides dynamic keybindings for an improved debugging experience.
 
-using dap in neovim is amazing, however the keyboard controls can be quite annoying and don't match neovims speed
+## Keybindings
+While debugging:
 
-## what does it do
+o: Step over
+i: Step into
+b: Toggle breakpoint
+H: Hover to view current value
+Keybindings revert to their default actions when not debugging.
 
-while you're actively debugging in normal mode, just use 
+## Installation
+Include the setup function in your Neovim configuration:
 
- - o : to jump over
- - i : to jump into
- - b : to toggle Breakpoint
- - H : to Hover over an item and show the current value
+```lua
+require('your_module_name').setup()
+```
 
-if you're not debugging, the keybinds will be back to the original value
