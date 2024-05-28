@@ -15,6 +15,6 @@ Keybindings revert to their default actions when not debugging.
 Include the setup function in your Neovim configuration:
 
 ```lua
-require('your_module_name').setup()
+require('nvim-dap-mode').setup()
 ```
 
